@@ -1,0 +1,20 @@
+{
+  "name": "nano-agent-knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/demo/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.12",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

@@ -1,0 +1,1 @@
+export type FailureType = "missing-knowledge" | "retrieval-noise" | "context-loss" | "semantic-misinterpretation" | "tool-discovery-failure" | "tool-usage-failure" | "execution-failure" | "planning-failure";

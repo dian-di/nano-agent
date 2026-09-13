@@ -1,0 +1,1 @@
+export interface ToolCatalogEntry { id: string; name: string; description: string; categories?: string[]; argumentSummary?: string; relatedKnowledgeIds?: string[]; metadata?: Record<string, unknown>; }
